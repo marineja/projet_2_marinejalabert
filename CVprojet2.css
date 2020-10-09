@@ -1,0 +1,324 @@
+@font-face {
+  font-family: "Karma-Regular";
+  src: url("Karma-Regular.ttf");
+}
+body{
+	font-family: "Karma-Regular"
+}
+body, html{
+	margin: 0 auto;
+	padding: 0;
+	width: 1150px;
+	height: 1485px;
+	box-shadow: 0px 0px 10px black
+
+}
+.page{
+	display: flex;
+	width: 100%;
+	height: 100%;}
+
+p{
+	font-size: small;
+}
+/*=======================================================blocgauce==================================*/
+.Blocgauche{
+	width: 27%;
+	background-color: #CDDC39;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.titreun{
+	background-color: black;
+	height: auto;
+	text-align: center;
+}
+
+h1{
+	
+	font-family: "Karma-Regular";
+}
+
+.textvert {
+	color: #CDDC39;
+	padding: 5px 0px;
+}
+.titredeux{
+	background-color: black;
+	height: auto;
+	text-align: center;
+}
+.texte{
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.titretrois{
+	background-color: black;
+	height: auto;
+	text-align: center;
+}
+.photo{
+	height: 100px;
+}
+.photo > img{
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px black;
+    width: 50%;
+
+}
+.adresse > p {
+	line-height: 20px;
+}
+.information{
+	padding-left: 30px;
+}
+.icones{
+	display: flex;
+	justify-content: space-around;
+}
+.icones>div{
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+}
+.icones>div>i{
+	font-size: 20px;
+}
+.marine{
+	color:#CDDC39; 
+}
+.jalabert{
+	color: black;
+}
+.Hobbys{
+	align-self: flex-end;
+	width: 100%;
+	margin-bottom: 10%;
+}
+.bloccontact{
+	width: 100%;
+	height: 230px;
+}
+
+/*==============================================================bloc droit==================================*/
+.blocdroit{
+	width: 73%;
+}
+.photoresponsive{
+	display: none;
+}
+.titrecv{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h2{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.trait{
+	height: 3px;
+	width: 65px;
+	background-color:#CDDC39; 
+}
+
+.imagedroit>i{
+	color: #CDDC39;
+	font-size: 30px;
+
+}
+.parcours>p{
+	font-size: small;
+}
+.sujet>p{
+	font-size: small;
+}
+.date>p{
+	font-weight: bold;
+}
+.date{
+	margin: 0 0 0 20px;
+}
+.cerclepoint>i{
+	color: #CDDC39;
+	padding-top: 20px;
+}
+h3{
+	font-weight: bold;
+	font-size: large;
+	margin: 0 0 0 50px;
+	font-size: 30px;
+	
+}
+.titreimage{
+	display: flex;
+	width: 100%;
+	border-bottom: solid 2px #CDDC39;
+}
+.blocdate{
+	display: flex;
+}
+.date > p {
+	margin-top: 20px;
+
+}
+.premierbloc{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+h4{
+	font-weight: bold;
+}
+.deuxiemebloc{
+	display: flex;
+}
+.cercle>i{
+	color: #CDDC39;
+	padding-top: 20px;
+}
+.bloctitre{
+	margin-top: 90px;
+	margin-bottom: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.blocdeux{
+	width: 500px;
+}
+
+
+/*===============================================bloc experiences================================================*/
+
+.troisiemebloc{
+	display: flex;
+	justify-content: space-between;
+}
+
+.deuxiemebloc{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/***********************************************recommandations*********************************************/
+.interieurrecommandations{
+	display: flex;
+}
+
+.blocdeuxrecommandations{
+	width: 500px;
+}
+.deuxiemebloc{
+	display: flex;
+}
+.blocunrecommandations{
+	width: 50%;
+}
+.blocdeuxrecommandations{
+	width: 50%;
+}
+.job>p{
+	font-weight: bold;
+}
+.tel>p{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1150px) {
+
+
+	body, html{
+	
+		width: 100%;
+		height: auto;
+		
+	}
+	.page{
+	flex-direction: column-reverse;}
+	.blocdroit{
+	width: 100%;
+	}
+
+	.Blocgauche{
+	width: 100%; 
+	}
+	.blocdroit{
+	width: 100%;
+}
+	.photo{
+	display: none;
+
+	}
+	.bloccontact{
+		height: 340px;
+	}
+	.photoresponsive{
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+	}
+	.photoresponsive>img{
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px black;
+    width: 100%;
+	}
+	.premierbloc{
+		display: block;
+	}
+	.deuxiemebloc{
+		display: block;
+	}
+	.troisiemebloc{
+		display: block;
+	}
+	body, html{
+		box-shadow: none;
+	}
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 550px){
+
+.blocdeux{
+	width: 100%;
+}
+.imagedroit{
+	display: none;
+}
+h3{
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+}
+.interieurrecommandations{
+	display: block;
+}
+.titreblocs{
+	width: 100%;
+}
+
+}
